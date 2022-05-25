@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+#data
+/data/cifar-10-batches-py
+cifar-10-batches-py
+*.gz
+*.ckpt
+
+#pycache
+data/__pycache__
+__pycache__
+
+#logs
+/logs
+
+/venv
+
+# .idea

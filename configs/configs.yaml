@@ -1,0 +1,14 @@
+- model:
+    lit_resnet:
+      acc: auto
+      lr: 0.1
+      max_epochs: 30
+      name: LitResnet
+      num_classes: 10
+      pretrained: false
+- params:
+    BATCH_SIZE: 64
+    NUM_WORKERS: 2
+    PATH_DATASETS: data
+- logs:
+    log_dir: logs/
